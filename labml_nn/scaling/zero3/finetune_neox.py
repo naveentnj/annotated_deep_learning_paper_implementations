@@ -59,7 +59,7 @@ def _model(c: Configs):
     # Create a sequential model
     model = Zero3Sequential(modules)
 
-    #
+    # Return's the sequential model
     return model
 
 
